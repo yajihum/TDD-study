@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Git\\TDD-study\\tdd-study\\TDDStudy\\TDDStudy.csproj",
+      "projectUniqueName": "C:\\Git\\TDD-study\\TDDStudy\\TDDStudy.csproj",
       "projectName": "TDDStudy",
-      "projectPath": "C:\\Git\\TDD-study\\tdd-study\\TDDStudy\\TDDStudy.csproj",
+      "projectPath": "C:\\Git\\TDD-study\\TDDStudy\\TDDStudy.csproj",
       "packagesPath": "C:\\Users\\yajiu\\.nuget\\packages\\",
-      "outputPath": "C:\\Git\\TDD-study\\tdd-study\\TDDStudy\\obj\\",
+      "outputPath": "C:\\Git\\TDD-study\\TDDStudy\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\yajiu\\AppData\\Roaming\\NuGet\\NuGet.Config",
