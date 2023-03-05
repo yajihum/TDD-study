@@ -21,8 +21,4 @@
     </PackageReference>
   </ItemGroup>
 
-  <ItemGroup>
-    <ProjectReference Include="..\TDDStudy\TDDStudy.csproj" />
-  </ItemGroup>
-
 </Project>
