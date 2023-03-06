@@ -55,6 +55,17 @@ namespace TDDStudyTest
         }
 
         [Fact]
+        public void TestMixedAdditon()
+        {
+            Money fiveBucks = Money.Dollar(5);
+            Money tenFrancs = Money.Franc(10);
+            Bank bank = new Bank();
+            bank.AddRate("CHF", "USD", 2);
+            Money result = bank.Reduce(fiveBucks.Plus(tenFrancs), "USD");
+            Assert.Equal(Money.Dollar(10), result);
+        }
+
+        [Fact]
         public void TestEquality()
         {
             Assert.True(Money.Dollar(5).CheckIsEqual(Money.Dollar(5)));

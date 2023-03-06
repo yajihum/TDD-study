@@ -17,7 +17,7 @@
         public int GetRate(string from, string to)
         {
             if (from.Equals(to)) return 1;
-            return rates.First(x => x.Key == new Pair(from, to)).Value;
+            return rates.First(x => x.Key.from == from && x.Key.to == to).Value;
         }
     }
 }

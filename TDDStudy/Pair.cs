@@ -2,8 +2,8 @@
 {
     public class Pair
     {
-        private string from;
-        private string to;
+        public string from;
+        public string to;
         
         public Pair(string from, string to)
         {
