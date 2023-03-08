@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "TDDStudyXUnit/1.0.0": {
+        "runtime": {
+          "TDDStudyXUnit.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "TDDStudyXUnit/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
