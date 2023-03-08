@@ -7,6 +7,10 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TDDStudy", "TDDStudy\TDDStu
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TDDStudyTest", "TDDStudyTest\TDDStudyTest.csproj", "{8BFEEC4A-1B44-46F9-A985-18A411F6076E}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TDDStudyXUnit", "TDDStudyXUnit\TDDStudyXUnit.csproj", "{C75D70AB-5FE8-4AD7-B165-92D0E5185E17}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TDDStudyXUnitTest", "TDDStudyXUnitTest\TDDStudyXUnitTest.csproj", "{BA6F3529-12B4-44E3-8665-FF52ED41BBD7}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +25,14 @@ Global
 		{8BFEEC4A-1B44-46F9-A985-18A411F6076E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8BFEEC4A-1B44-46F9-A985-18A411F6076E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8BFEEC4A-1B44-46F9-A985-18A411F6076E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C75D70AB-5FE8-4AD7-B165-92D0E5185E17}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C75D70AB-5FE8-4AD7-B165-92D0E5185E17}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C75D70AB-5FE8-4AD7-B165-92D0E5185E17}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C75D70AB-5FE8-4AD7-B165-92D0E5185E17}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BA6F3529-12B4-44E3-8665-FF52ED41BBD7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BA6F3529-12B4-44E3-8665-FF52ED41BBD7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BA6F3529-12B4-44E3-8665-FF52ED41BBD7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BA6F3529-12B4-44E3-8665-FF52ED41BBD7}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
