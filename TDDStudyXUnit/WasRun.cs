@@ -2,21 +2,28 @@
 {
     public class WasRun : TestCase
     {
-        public bool wasRun;
+        public string name;
+        public string log;
 
         public WasRun(string name) : base(name)
         {
-            wasRun = false;
+            this.name = name;
+            log = name;
         }
 
-        public void Run()
+        public override void TestMethod()
         {
-            TestMethod();
+            log += " testMethod";
         }
 
-        private void TestMethod()
+        public override void TestBrokenMethod()
         {
-            wasRun = true;
+            throw new NotImplementedException();
+        }
+
+        public override void Dispose()
+        {
+            log += " tearDown";
         }
     }
 }

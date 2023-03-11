@@ -1,6 +1,6 @@
 ﻿namespace TDDStudyXUnit
 {
-    public class TestCase
+    public abstract class TestCase
     {
         protected string name;
 
@@ -8,5 +8,31 @@
         {
             this.name = name;
         }
+
+        public void Run(TestResult result)
+        {
+            try
+            {
+                result.TestStarted();
+                if (name == "testMethod")
+                {
+                    TestMethod();
+                }
+                else
+                {
+                    TestBrokenMethod();
+                }
+            }
+            catch
+            {
+                result.TestFailed();
+            }
+        }
+
+        public abstract void TestMethod();
+
+        public abstract void TestBrokenMethod();
+
+        public abstract void Dispose();
     }
 }
